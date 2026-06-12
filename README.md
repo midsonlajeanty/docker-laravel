@@ -64,7 +64,6 @@ Your application provides the code; this image provides the runtime and the supe
 - 🏗️ **Multi-architecture**: `linux/amd64` and `linux/arm64`.
 - 🚀 **Two variants per PHP version**: `production` (OPcache on) and `development` (OPcache off, errors to stderr).
 - 🤖 **CI/CD included**: GitHub Actions builds the full matrix and rebuilds weekly for patches.
-- 🪶 **Lean**: no Postgres client, no MinIO client, no Cloudflared - just the runtime.
 
 ## Quick start
 
