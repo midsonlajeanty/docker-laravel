@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 440" width="1660" height="440" role="img" aria-label="Laravel Base Image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <style>
+      .t { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1656" height="436" rx="28" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="2" y="2" width="14" height="436" rx="7" fill="#FF4133"/>
+
+  <text class="t" x="92" y="170" font-size="92" font-weight="800" fill="#e6edf3">
+    <tspan fill="#FF4133">Laravel</tspan> Base Image
+  </text>
+
+  <text class="t" x="96" y="232" font-size="34" font-weight="500" fill="#9aa4b2">Single-container Laravel runtime · PHP-FPM · Nginx · s6-overlay</text>
+  <text class="t" x="96" y="278" font-size="34" font-weight="500" fill="#9aa4b2">Horizon · queue · scheduler · Nightwatch - all in one container</text>
+
+  <g class="t" font-size="28" font-weight="600" fill="#c9d1d9">
+    <rect x="92"  y="326" width="356" height="60" rx="30" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="270" y="365" text-anchor="middle">PHP 8.3 · 8.4 · 8.5</text>
+
+    <rect x="468" y="326" width="208" height="60" rx="30" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="572" y="365" text-anchor="middle">s6-overlay</text>
+
+    <rect x="696" y="326" width="372" height="60" rx="30" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="882" y="365" text-anchor="middle">multi-arch amd64/arm64</text>
+
+    <rect x="1088" y="326" width="150" height="60" rx="30" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="1163" y="365" text-anchor="middle">GHCR</text>
+  </g>
+
+  <g transform="translate(1360,118)" opacity="0.95">
+    <rect x="0"  y="150" width="210" height="56" rx="12" fill="#30363d"/>
+    <rect x="22" y="86"  width="166" height="56" rx="12" fill="#475569"/>
+    <rect x="44" y="22"  width="122" height="56" rx="12" fill="#FF4133"/>
+  </g>
+</svg>

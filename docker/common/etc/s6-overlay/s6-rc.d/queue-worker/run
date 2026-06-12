@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd /var/www/html
+
+if grep -qiE '^[[:space:]]*HORIZON_ENABLED[[:space:]]*=[[:space:]]*false' .env 2>/dev/null; then
+    echo "   INFO  Horizon is disabled, starting queue worker..."
+    exec php artisan queue:work
+fi
+
+echo "   INFO  Horizon is enabled, queue handled by Horizon, sleeping."
+exec sleep infinity
